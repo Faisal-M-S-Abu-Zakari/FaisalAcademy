@@ -5,6 +5,7 @@ export interface User {
   role: 'student' | 'instructor' | 'admin';
   bio?: string;
   photoUrl?: string;
+  createdAt: string;
   enrolledCourses?: Course[] | string[];
 }
 
